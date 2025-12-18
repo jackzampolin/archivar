@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=800, height=480, user-scalable=no">
+    <title>Archivar Scanner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Main scanning view -->
+        <div id="scan-view" class="view active">
+            <!-- Status bar -->
+            <header class="status-bar">
+                <div class="status-left">
+                    <span id="connection-status" class="status-indicator disconnected"></span>
+                    <span id="server-name">Not connected</span>
+                </div>
+                <div class="status-center">
+                    <span id="book-title">-</span>
+                </div>
+                <div class="status-right">
+                    <span id="page-count">0</span>
+                    <span class="label">pages</span>
+                </div>
+            </header>
+
+            <!-- Camera previews -->
+            <div class="preview-container">
+                <div class="preview-panel">
+                    <div class="preview-label">LEFT</div>
+                    <img id="preview-left" class="preview-image" alt="Left camera">
+                    <div class="preview-placeholder" id="placeholder-left">No camera</div>
+                </div>
+                <div class="preview-panel">
+                    <div class="preview-label">RIGHT</div>
+                    <img id="preview-right" class="preview-image" alt="Right camera">
+                    <div class="preview-placeholder" id="placeholder-right">No camera</div>
+                </div>
+            </div>
+
+            <!-- Action buttons -->
+            <footer class="action-bar">
+                <button id="btn-settings" class="btn btn-secondary">
+                    <span class="icon">&#9881;</span>
+                    Setup
+                </button>
+                <button id="btn-capture" class="btn btn-primary" disabled>
+                    <span class="icon">&#128247;</span>
+                    CAPTURE
+                </button>
+                <button id="btn-session" class="btn btn-secondary">
+                    <span class="icon">&#128214;</span>
+                    <span id="session-btn-text">New Book</span>
+                </button>
+            </footer>
+        </div>
+
+        <!-- Settings view -->
+        <div id="settings-view" class="view">
+            <header class="settings-header">
+                <button id="btn-back" class="btn btn-icon">&larr;</button>
+                <h1>Setup</h1>
+            </header>
+
+            <div class="settings-content">
+                <!-- Server connection -->
+                <section class="settings-section">
+                    <h2>Server Connection</h2>
+                    <div id="server-list" class="server-list">
+                        <div class="loading">Searching for servers...</div>
+                    </div>
+                    <div class="manual-connect">
+                        <input type="text" id="server-ip" placeholder="192.168.1.x">
+                        <input type="number" id="server-port" value="8080" min="1" max="65535">
+                        <button id="btn-connect" class="btn btn-small">Connect</button>
+                    </div>
+                </section>
+
+                <!-- Camera setup -->
+                <section class="settings-section">
+                    <h2>Cameras</h2>
+                    <div id="camera-list" class="camera-list">
+                        <div class="loading">Detecting cameras...</div>
+                    </div>
+                    <button id="btn-swap-cameras" class="btn btn-small">Swap L/R</button>
+                    <button id="btn-detect-cameras" class="btn btn-small">Refresh</button>
+                </section>
+            </div>
+        </div>
+
+        <!-- Book title modal -->
+        <div id="modal-overlay" class="modal-overlay hidden">
+            <div class="modal">
+                <h2>Start New Book</h2>
+                <input type="text" id="input-book-title" placeholder="Book title" autofocus>
+                <div class="modal-buttons">
+                    <button id="btn-cancel-book" class="btn btn-secondary">Cancel</button>
+                    <button id="btn-start-book" class="btn btn-primary">Start</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast notifications -->
+        <div id="toast" class="toast hidden"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>
