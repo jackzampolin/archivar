@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "archivar"
+version = "0.1.0"
+description = "CAD tools for the Archivar book scanner project"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "Jack Zampolin" }
+]
+dependencies = [
+    "ezdxf>=1.0",
+    "build123d>=0.5",
+    "jupyter-cadquery>=3.0",
+    "jupyter>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ipykernel>=6.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/archivar"]

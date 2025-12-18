@@ -1,0 +1,22 @@
+Category,Item,Specification,Qty,Unit Price (Est.),Total (Est.),Amazon/Source Link,Notes
+Structure - Wood,SendCutSend Plywood Cuts,9mm + 3mm birch plywood laser cut,1,$1300.00,$1300.00,https://app.sendcutsend.com,Per-part pricing with their nesting
+Structure - Hardware,Aluminum Extrusion 20x20mm,500mm length T-slot,2,$8.00,$16.00,https://www.amazon.com/Aluminum-Extrusion-European-Workbench-19-7Inches/dp/B0C3DBQ2GR,4-pack available - only need 2
+Structure - Hardware,V-Slot Wheels (Delrin),For 20mm extrusion linear motion,1,$15.00,$15.00,https://www.amazon.com/Delrin-Aluminum-Extrusion-Linear-Printers/dp/B07B4BLQ12,12-pack kit
+Structure - Hardware,M8 Threaded Rod,400mm stainless steel,2,$8.00,$16.00,https://www.amazon.com/SHOUCAN-Threaded-Stainless-Corrosion-Resistance/dp/B08RX874SF,Height adjustment
+Structure - Hardware,M8 Star Knobs,Female thread clamping knobs,8,$12.00,$12.00,https://www.amazon.com/YXQ-Thread-Clamping-Replacement-Plastic/dp/B07FMFQB3H,12-pack - replaces cut clamp_knob parts
+Structure - Hardware,Metric Bolt/Nut Kit,M4 M5 M6 M8 assorted stainless,1,$20.00,$20.00,https://www.amazon.com/Metric-Assortment-Stainless-Hardware-Assorted/dp/B0D54XP85G,370pc kit with storage case
+Structure - Hardware,Wood Screws Assortment,Various sizes Phillips head,1,$15.00,$15.00,https://www.amazon.com/FARRAY-Wood-Screws-Assortment-224pcs/dp/B0CDR8G1Y9,224pc kit
+Structure - Hardware,Titebond Wood Glue,Original 16oz,1,$8.00,$8.00,https://www.amazon.com/Titebond-5064-Original-Wood-16-Ounces/dp/B0002YXDZ8,For laminating 9mm sheets to 18mm
+Electronics,Arducam 16MP USB Camera,Autofocus IMX298 sensor,2,$52.00,$104.00,https://www.amazon.com/Arducam-Autofocus-Computer-Microphone-Windows/dp/B08S347RJ7,USB plug-and-play no drivers needed
+Electronics,Raspberry Pi 4 Model B,4GB RAM,1,$55.00,$55.00,https://www.amazon.com/Raspberry-Pi-RPI4-MODBP-4GB-Model-4GB/dp/B09TTNF8BT,Main controller
+Electronics,Pi 7in Touchscreen,Official Raspberry Pi display,1,$70.00,$70.00,https://www.amazon.com/Raspberry-Pi-7-Touchscreen-Display/dp/B0153R2A9I,800x480 capacitive touch
+Electronics,USB Foot Pedal,Tiardey single pedal programmable,1,$15.00,$15.00,https://www.amazon.co.uk/Tiardey-Optical-Control-Computer-Keyboard/dp/B09TQFBS3C,Page turn trigger - check US availability
+Electronics,USB-C Power Supply,Official Pi 4 5.1V 3A,1,$10.00,$10.00,https://www.amazon.com/Raspberry-Official-Power-Supply-15-3W/dp/B07YD2LZDC,Official Raspberry Pi PSU
+Electronics,Powered USB Hub,4-port for Raspberry Pi,1,$15.00,$15.00,https://www.amazon.com/4-Port-USB-HUB-HAT-Compatible/dp/B083KMNR36,HAT style mounts on Pi
+Lighting,GU10 Spotlight Fixtures,Surface mount adjustable,2,$15.00,$30.00,https://www.amazon.com/Depuley-Industrial-Lighting-Directional-Spotlight/dp/B0875TV49Y,2-light fixture with bulbs included
+Lighting,SORAA LED Bulbs,MR16 GU10 7.5W 3000K,2,$25.00,$50.00,https://www.amazon.com/Soraa-Brilliant-3000k-36deg-dimmable/dp/B00Q55WGNI,High CRI for accurate color - or use fixture bulbs
+Glass,Glass Panes,3mm TVG 416x305mm beveled edges,2,$50.00,$100.00,Local glass shop,One long edge needs 50° bevel - get quote locally
+Optional,Lenticular Lens Sheet,10LPI 3.25mm for glare reduction,1,$30.00,$30.00,Search specialty suppliers,Original design feature - reduces reflections
+Optional,Cable Management,Zip ties and cable clips,1,$10.00,$10.00,https://www.amazon.com/s?k=cable+management+kit,General organization
+,,,,TOTAL (Required),$1851.00,,
+,,,,TOTAL (with Optional),$1891.00,,
